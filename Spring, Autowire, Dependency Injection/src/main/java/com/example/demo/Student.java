@@ -12,7 +12,7 @@ public class Student {
     private String name;
 
     @Autowired
-    @Qualifier("lap1")
+    @Qualifier("sch1")
     private School laptop;
 
     public Student() {

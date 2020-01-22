@@ -3,7 +3,7 @@ package com.example.demo;
 
 import org.springframework.stereotype.Component;
 
-@Component("lap1")
+@Component("sch1")
 public class School {
     private int id;
     private String town;
