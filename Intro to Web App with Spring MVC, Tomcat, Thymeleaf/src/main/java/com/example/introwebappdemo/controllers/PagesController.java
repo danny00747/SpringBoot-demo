@@ -25,6 +25,7 @@ public class PagesController {
         // defaultValue = "World ! ", is value in absence of the name parameter
         return "pages/home";
 
+
     }
 
     /*
