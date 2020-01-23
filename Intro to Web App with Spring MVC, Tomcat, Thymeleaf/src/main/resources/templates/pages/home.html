@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org/">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo App</title>
+</head>
+<body>
+    <!--/*@thymesVar id="HtmlThymeleafValue" type=""*/-->
+    <h1 th:text="'Hello ' + ${#strings.capitalize(HtmlThymeleafValue)} + ' !' "> Hello Daniel </h1>
+    <!--Hello Daniel means what the output with ${name } is supposed to look like-->
+</body>
+</html>
