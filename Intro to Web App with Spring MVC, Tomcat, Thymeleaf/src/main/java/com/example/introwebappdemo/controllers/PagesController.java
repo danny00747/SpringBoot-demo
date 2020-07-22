@@ -14,7 +14,8 @@ public class PagesController {
 
 
     @GetMapping("/")
-    public String home(@RequestParam(required = false, defaultValue = "World ! ") String name, ModelMap modelMap) {
+    public String home(@RequestParam(required = false, defaultValue = "World ! ")
+                                   String name, ModelMap modelMap) {
 
         modelMap.put("HtmlThymeleafValue", name);
         // with @RequestParam String name, we have the parameter value directly stored in the name value
